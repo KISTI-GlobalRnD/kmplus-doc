@@ -168,9 +168,19 @@ static/
 ### GitHub 저장소 설정
 
 1. GitHub에서 저장소 생성 (이미 생성됨: `KISTI-GlobalRnD/kmplus-doc`)
-2. Settings > Pages에서 Source를 "GitHub Actions"로 설정
+2. Settings > Pages에서 Source를 "GitHub Actions"로 설정 (자동 배포용)
 
-### 수동 배포
+### 자동 배포 (추천)
+
+`/.github/workflows/deploy.yml` 워크플로가 `main` 브랜치 푸시 시 자동으로 빌드/배포합니다.
+
+1. 변경 사항을 `main`에 push
+2. Actions 탭에서 배포 상태 확인
+3. `https://kisti-globalrnd.github.io/kmplus-doc/` 접속
+
+### 수동 배포 (선택: gh-pages 브랜치)
+
+수동 배포를 쓰려면 Settings > Pages에서 Source를 "Deploy from a branch"로 바꾸고 `gh-pages` 브랜치의 `/(root)`를 선택하세요.
 
 `docusaurus.config.ts`에서 GitHub 설정을 확인하고:
 
