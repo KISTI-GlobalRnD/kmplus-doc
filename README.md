@@ -14,8 +14,8 @@ KnowledgeMatrix Plus의 사용자 매뉴얼 사이트입니다. [Docusaurus](htt
 ### 프로젝트 클론
 
 ```bash
-git clone https://github.com/hwhawork/kmplus-manual.git
-cd kmplus-manual
+git clone https://github.com/KISTI-GlobalRnD/kmplus-doc.git
+cd kmplus-doc
 ```
 
 ### 의존성 설치
@@ -61,7 +61,7 @@ npm run serve
 npm run pdf:local
 ```
 
-생성된 `kmplus-manual-full.pdf` 파일은 프로젝트 루트 폴더에 저장됩니다.
+생성된 `kmplus-doc-full.pdf` 파일은 프로젝트 루트 폴더에 저장됩니다.
 
 **특징:**
 
@@ -167,7 +167,7 @@ static/
 
 ### GitHub 저장소 설정
 
-1. GitHub에서 저장소 생성 (이미 생성됨: `hwhawork/kmplus-manual`)
+1. GitHub에서 저장소 생성 (이미 생성됨: `KISTI-GlobalRnD/kmplus-doc`)
 2. Settings > Pages에서 Source를 "GitHub Actions"로 설정
 
 ### 수동 배포
@@ -175,10 +175,10 @@ static/
 `docusaurus.config.ts`에서 GitHub 설정을 확인하고:
 
 ```typescript
-url: 'https://hwhawork.github.io',
-baseUrl: '/kmplus-manual/',
-organizationName: 'hwhawork',
-projectName: 'kmplus-manual',
+url: 'https://kisti-globalrnd.github.io',
+baseUrl: '/kmplus-doc/',
+organizationName: 'KISTI-GlobalRnD',
+projectName: 'kmplus-doc',
 ```
 
 다음 명령어로 배포:
@@ -186,19 +186,19 @@ projectName: 'kmplus-manual',
 **Windows (PowerShell):**
 
 ```powershell
-$env:GIT_USER="hwhawork"; npm run deploy
+$env:GIT_USER="KISTI-GlobalRnD"; npm run deploy
 ```
 
 **Linux/macOS (Bash):**
 
 ```bash
-GIT_USER=hwhawork npm run deploy
+GIT_USER=KISTI-GlobalRnD npm run deploy
 ```
 
 ## 프로젝트 구조
 
 ```
-kmplus-manual/
+kmplus-doc/
 ├── docs/                    # 문서 파일들
 ├── static/                  # 정적 파일 (이미지 등)
 │   └── img/

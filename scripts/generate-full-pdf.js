@@ -7,8 +7,8 @@ async function generateFullPDF() {
     console.log('🚀 전체 매뉴얼 PDF 생성을 시작합니다...\n');
 
     // 로컬 서버 사용 (serve 명령으로 실행 필요)
-    const baseUrl = 'http://localhost:3000/kmplus-manual/';
-    const outputPath = path.join(__dirname, '..', 'kmplus-manual-full.pdf');
+    const baseUrl = 'http://localhost:3000/kmplus-doc/';
+    const outputPath = path.join(__dirname, '..', 'kmplus-doc-full.pdf');
 
     const browser = await puppeteer.launch({
         headless: 'new',
@@ -39,7 +39,7 @@ async function generateFullPDF() {
             sidebarLinks.forEach((link) => {
                 const href = link.getAttribute('href');
                 if (href && !href.startsWith('http') && !href.includes('#')) {
-                    const fullUrl = href.startsWith('/kmplus-manual/')
+                    const fullUrl = href.startsWith('/kmplus-doc/')
                         ? 'http://localhost:3000' + href
                         : href.startsWith('/')
                         ? base + href.substring(1)

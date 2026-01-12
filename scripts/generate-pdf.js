@@ -5,8 +5,8 @@ const path = require('path');
 async function generatePDF() {
     console.log('🚀 PDF 생성을 시작합니다...\n');
 
-    const baseUrl = 'https://hwhawork.github.io/kmplus-manual/';
-    const outputPath = path.join(__dirname, '..', 'kmplus-manual.pdf');
+    const baseUrl = 'https://kisti-globalrnd.github.io/kmplus-doc/';
+    const outputPath = path.join(__dirname, '..', 'kmplus-doc.pdf');
 
     const browser = await puppeteer.launch({
         headless: 'new',
