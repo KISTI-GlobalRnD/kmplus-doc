@@ -7,7 +7,7 @@ sidebar_position: 1
 
 :::note
 - 본 매뉴얼은 **KM+ ver. 0.9 (2026.5.11.배포)** 를 기준으로 작성되었습니다.
-- 매뉴얼 마지막 업데이트 : 2026.5.7.
+- 매뉴얼 마지막 업데이트 : 2026.5.11.
 - KM+에 대한 문의 사항은 [knowledgematrix@kisti.re.kr](mailto:KnowledgeMatrix@kisti.re.kr)로 연락주시기 바랍니다.
 :::
 
