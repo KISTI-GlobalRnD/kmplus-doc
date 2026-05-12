@@ -40,7 +40,7 @@ sidebar_position: 2
 | **New Dataset**                 | Project Union         | 클릭하여 **Project Union** 다이얼로그를 열고 프로젝트 간 합집합을 수행합니다.                       |
 |                                 | Project Intersection  | 클릭하여 **Project Intersection** 다이얼로그를 열고 프로젝트 간 교집합을 수행합니다.                |
 | **Natural Language Processing** | English Nouns         | 클릭하여 **NLP** 다이얼로그를 열고 선택한 필드에서 영문 명사를 추출합니다.                           |
-|                                 | English Nouns Phrases |클릭하여 **NLP** 다이얼로그를 열고 필드를 선택하고 해당 필드에서 영문 명사 구를 추출합니다.             |
+|                                 | English Noun Phrases |클릭하여 **NLP** 다이얼로그를 열고 필드를 선택하고 해당 필드에서 영문 명사 구를 추출합니다.             |
 |                                 | Korean Nouns          | 클릭하여 **NLP** 다이얼로그를 열고필드를 선택하고 해당 필드에서 한글 명사를 추출합니다.                |
 | **Bind Fields**                |                       | 클릭하여 **Bind Field** 다이얼로그를 열고 사용자가 선택한 필드를 하나로 합친 새로운 필드를 생성합니다.   |
 
